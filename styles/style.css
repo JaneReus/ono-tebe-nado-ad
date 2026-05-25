@@ -6,7 +6,7 @@ header {
     width: 1100px;
     height: 293px;
     margin: 0 auto;
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-weight: 400;
     font-style: normal;
     line-height: 100%;
@@ -165,7 +165,7 @@ a {
     padding-left: 64px;
     padding-top: 5px;
     padding-bottom: 30px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
@@ -203,7 +203,7 @@ a {
 }
 
 .card__title {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 700;
     font-style: Bold;
     font-size: 22px;
@@ -215,7 +215,7 @@ a {
 }
 
 .card__text {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
@@ -241,7 +241,7 @@ a {
     text-underline-offset: 5px;
     padding-top: 32px;
     padding-left:64px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
@@ -287,7 +287,7 @@ a {
 
 .about__title {
     margin-top: 140px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 700;
     font-style: Bold;
     font-size: 40px;
@@ -297,7 +297,7 @@ a {
 }
 
 .about__text {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
@@ -308,7 +308,7 @@ a {
 }
 
 .about__text2 {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
