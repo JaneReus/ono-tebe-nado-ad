@@ -73,10 +73,11 @@ a {
 .cover {
     margin: 0 auto;
     width: 1100px;
-    height: 757px;
-    background-image: url(../images/cover.jpg);
-    background-size: cover;
+    min-height: 757px;
     position: relative;
+    background-image: url('../images/cover.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .overlay {
@@ -105,17 +106,43 @@ a {
 .aligned-text {
     display: block;
     text-align: left;
-    padding-left: 50px;
+}
+
+.aligned-text_left {
     padding-top: 165px;
-    margin-top: 0;
+    padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 .aligned-text_center {
     text-align: center;
-    margin-top: 0;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 20px;
 }
 
 .aligned-text_right {
     text-align: right;
-    margin-top: 0;
+    padding-right: 20px;
+}
+
+.cover__description-text {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    word-spacing: 8px;
+    margin: 0;
+}
+
+.bet-button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 22px;
+    padding: 12px 32px;
+    cursor: pointer;
+    font-family: inherit;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
 }
